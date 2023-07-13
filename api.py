@@ -1,5 +1,7 @@
-import requests
+import requests, os
 
+BASE_URL = os.getenv('MEMO_URL').split('/memo?')[0]
+OPENID = os.getenv('MEMO_URL').split('/memo')[1]
 
 def get_system_status():
     return requests.get(f"{BASE_URL}/status" + OPENID)
