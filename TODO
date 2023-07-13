@@ -1,0 +1,7 @@
+- [ ] check if new memo in memos 
+- [ ] compute for new memos in memos
+- [ ] local QA model
+- [ ] detect code 
+- [ ] parse markdown ?
+- [ ] NER 
+- [ ] Make sure to pull new edits to replace W/ new embedding 
